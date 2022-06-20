@@ -1,0 +1,65 @@
+body{
+    font-family: poppins;
+}
+.navbar{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+}
+.navbar-brand{
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff !important;
+    cursor: pointer !important;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer !important;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    width: 100%;
+}
+.carousel-caption{
+    transform: translateX(0%);
+    transform: translateY(-50%);
+    color: #000;
+}
+.carousel-caption h5{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    font-size: 18px;
+    width: 60%;
+    margin: auto;
+    line-height: 1.7;
+}
+.carousel-caption p a{
+    color: #fff;
+    background: darkorange;
+    padding: 10px 30px;
+    display: inline-block;
+    margin-top: 15px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    text-decoration: none;
+}
+button.navbar-toggler {
+    margin-left: auto;
+    display: block;
+    margin-top: -40px;
+    color: #fff !important;
+}
+button.navbar-toggler span{
+    font-size: 24px;
+    color: #fff !important;
+}

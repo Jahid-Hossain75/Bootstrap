@@ -1,0 +1,12 @@
+/* Small devices (phone,575px) */
+@media screen and (max-width: 575px) {
+    
+}
+/* Medium devices (landscape tablets, 768px) */
+@media only screen and (max-width: 768px) {
+    .carousel-control-prev,
+    .carousel-control-next{
+        display: none;
+    }
+
+}

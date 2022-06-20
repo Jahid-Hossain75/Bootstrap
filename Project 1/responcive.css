@@ -1,0 +1,43 @@
+/* Small devices (phone,575px) */
+@media screen and (max-width: 575px) {
+    /* home section */
+    .home_center h1{
+        font-size: 30px;
+    }
+    .home_center p{
+        font-size: 15px;
+        line-height: 23px;
+    }
+    /* product section */
+    .pro_pra{
+        display: none;
+    }
+    .pro_pra2{
+        display: block;
+    }
+}
+/* Medium devices (landscape tablets, 768px) */
+@media only screen and (max-width: 768px) {
+    /* home section */
+    .home_center h1{
+        font-size: 40px;
+    }
+    /* product section */
+    .pro_col{
+        margin-bottom: 25px;
+    }
+    .pro_col:nth-child(3){
+        margin-bottom: 0px;
+    }
+    /* Services Section */
+    .services_col{
+        margin-bottom: 25px;
+    }
+    .services_col:nth-child(3){
+        margin-bottom: 0;
+    }
+    /* Contact Section */
+    #contact .row .form-group:first-child{
+        margin-bottom: 1rem;
+    }
+}
